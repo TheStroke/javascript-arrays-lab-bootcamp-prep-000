@@ -5,4 +5,11 @@ function destructivelyAppendKitten(entry) {
   
   kittens.push(entry)
   return kittens
-}l
+}
+
+function desstructivelyPrependKitten(entry) {
+  //acces kittens, add an element to beginning and return the mutated kittens array
+  
+  kittens.unshift(entry)
+  return kittens
+}
