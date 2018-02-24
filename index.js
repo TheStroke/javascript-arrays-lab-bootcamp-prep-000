@@ -19,4 +19,3 @@ function destructivelyRemoveLastKitten() {
   return kittens
 }
 
-l
