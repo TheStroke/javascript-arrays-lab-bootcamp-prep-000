@@ -5,4 +5,4 @@ function destructivelyAppendKitten(entry) {
   
   kittens.push(entry)
   return kittens
-}
+}l
