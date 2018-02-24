@@ -28,3 +28,8 @@ function appendKitten(entry) {
   var cats = [...kittens, entry]
   return cats
 }
+
+function prependKitten(entry) {
+  var cats = [entry, ...kittens]
+  return cats
+}
