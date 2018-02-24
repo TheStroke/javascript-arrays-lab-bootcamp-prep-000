@@ -11,5 +11,5 @@ function destructivelyPrependKitten(entry) {
   //acces kittens, add an element to beginning and return the mutated kittens array
   
   kittens.unshift(entry)
-  return kittens
+  return kittensl
 }
